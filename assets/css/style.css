@@ -1,62 +1,74 @@
-/* Reset básico */
-body, h1, h2, h3, p, nav, ul {
-  margin: 0;
-  padding: 0;
-}
-
+/* ----- Base ----- */
 body {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.6;
-  background: #fff;
-  color: #333;
+    font-family: "JetBrains Mono", "Fira Code", monospace;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: #fafafa;
+    color: #222;
+    line-height: 1.7;
 }
 
-.container {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
+/* ----- Links ----- */
+a {
+    color: #005bbb;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 
-header {
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 2rem;
+/* ----- Title & Headers ----- */
+h1, h2, h3 {
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 2.2rem;
+}
+h2 {
+    font-size: 1.6rem;
+}
+h3 {
+    font-size: 1.3rem;
 }
 
-header h1 {
-  font-size: 1.8rem;
+/* ----- Code Blocks ----- */
+pre, code {
+    background: #f0f0f0;
+    padding: 4px 6px;
+    border-radius: 4px;
+    overflow-x: auto;
 }
 
-header a {
-  text-decoration: none;
-  color: #333;
+/* Blocks */
+pre {
+    padding: 14px;
 }
 
+/* ----- Lists ----- */
+ul, ol {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* ----- Nav simple arriba ----- */
 nav {
-  margin-top: 0.5rem;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
 }
-
 nav a {
-  margin-right: 1rem;
-  font-size: 0.9rem;
+    margin-right: 15px;
+    font-weight: 500;
 }
 
-main {
-  margin-bottom: 2rem;
-}
-
-main h1, main h2 {
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-main p {
-  margin-bottom: 1rem;
-}
-
+/* ----- Footer retro ----- */
 footer {
-  border-top: 1px solid #ddd;
-  padding-top: 1rem;
-  font-size: 0.8rem;
-  color: #777;
-  text-align: center;
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+    color: #555;
 }
