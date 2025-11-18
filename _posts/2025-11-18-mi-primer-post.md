@@ -1,11 +1,8 @@
 ---
 layout: default
-title: "Mi primer post"
+title: "Why you need a Thinkpad"
 ---
 
-# Mi primer post
+# Why you need a Thinkpad
 
-Este es un sitio artesanal.  
-Sin frameworks.  
-Sin JavaScript.  
-Solo Markdown, HTML y actitud Linux.
+It has a sexy red nipple
