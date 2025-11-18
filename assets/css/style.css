@@ -1,0 +1,41 @@
+body {
+  font-family: "DejaVu Sans", "Liberation Sans", monospace;
+  background: #f5f5f5;
+  color: #111;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #222;
+  color: #eee;
+  padding: 1rem;
+  border-bottom: 3px solid #00a000; /* green terminal vibe */
+}
+
+header a {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+nav {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  color: #444;
+  font-size: 0.8rem;
+}

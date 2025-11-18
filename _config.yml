@@ -1,0 +1,5 @@
+title: "Smoking Lopez"
+description: "Personal and Professional Blog"
+markdown: kramdown
+theme: null
+permalink: /:title/
