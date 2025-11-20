@@ -1,7 +1,7 @@
 /* --- GENERAL --- */
 body {
     background-color: #000000;
-    color: #66FF66; /* Verde terminal suave */
+    color: #FFFFFF; 
     font-family: monospace;
     font-size: 16px;
     margin: 0;
@@ -14,7 +14,7 @@ h1, .site-title {
     font-size: 3rem;
     margin-top: 2rem;
     text-align: center;
-    color: #7CFC00;
+    color: #FFFFFF;
     letter-spacing: 2px;
 }
 
@@ -35,10 +35,10 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #66FF66;
+    color: #FFFFFF;
     text-decoration: none;
     padding: 8px 14px;
-    border: 1px solid #66FF66;
+    border: 1px solid #FFFFFF;
     border-radius: 0px; /* SIN bordes redondeados */
     background: transparent;
     transition: 0.2s;
@@ -46,8 +46,8 @@ nav ul li a {
 
 nav ul li a:hover {
     color: black;
-    background-color: #66FF66;
-    border-color: #7CFC00;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
 }
 
 /* --- CUERPO DEL TEXTO / POSTS --- */
@@ -60,10 +60,10 @@ main, .content {
 
 /* Links del contenido */
 a {
-    color: #7CFC00;
+    color: #FFFFFF;
 }
 a:hover {
-    color: #ADFF2F;
+    color: #FFFFFF;
 }
 
 /* --- CLASSES --- */
@@ -77,6 +77,6 @@ footer {
     margin-top: 4rem;
     padding: 1rem;
     text-align: center;
-    border-top: 1px solid #66FF66;
-    color: #66FF66;
+    border-top: 1px solid #FFFFFF;
+    color: #FFFFFF;
 }
