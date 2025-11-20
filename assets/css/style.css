@@ -1,95 +1,96 @@
 /* -----------------------------------------------------------
-   RETRO UNIX STYLE — terminal vibes, minimal, clean
+   DARK TERMINAL UNIX - retro, minimal, green/white text
 ------------------------------------------------------------*/
 
-/* Base: background claro tipo viejo UNIX manpages */
 body {
     font-family: "IBM Plex Mono", "Fira Mono", monospace;
-    background-color: #f7f7f7;
-    color: #111;
+    background-color: #000000;
+    color: #f2f2f2;
     max-width: 780px;
     margin: 50px auto;
     padding: 0 20px;
-    line-height: 1.75;
+    line-height: 1.8;
     font-size: 17px;
 }
 
-/* Headings estilo manual pages */
+/* HEADINGS - simple, terminal-style, no fancy spacing */
 h1, h2, h3 {
     font-weight: 700;
-    color: #000;
+    color: #ffffff;
     margin-top: 45px;
     margin-bottom: 10px;
 }
+
 h1 {
     font-size: 2.3rem;
-    border-bottom: 2px solid #000;
-    padding-bottom: 5px;
+    border-bottom: 2px solid #444;
+    padding-bottom: 6px;
 }
 h2 {
-    font-size: 1.6rem;
-    border-left: 4px solid #000;
-    padding-left: 8px;
+    font-size: 1.7rem;
+    border-left: 4px solid #444;
+    padding-left: 10px;
 }
 h3 {
     font-size: 1.3rem;
 }
 
-/* Links tipo navegador de texto */
+/* LINKS - retro terminal soft blue */
 a {
-    color: #0044cc;
+    color: #5aa2ff;
     text-decoration: none;
-    border-bottom: 1px dotted #0044cc;
+    border-bottom: 1px dotted #5aa2ff;
 }
 a:hover {
-    border-bottom: 1px solid #0044cc;
+    border-bottom: 1px solid #5aa2ff;
 }
 
-/* Header image: estilo fotograma de monitor retro */
+/* HEADER IMAGE */
 .header-image {
     text-align: center;
     margin-bottom: 40px;
 }
+
 .header-image img {
     max-width: 260px;
-    border: 2px solid #000;
+    border: 2px solid #444;
     padding: 4px;
-    background: #eaeaea;
-    filter: contrast(130%) brightness(90%);
-    image-rendering: pixelated; /* efecto retro CRT */
+    background: #111;
+    image-rendering: pixelated;
+    filter: contrast(120%) brightness(100%);
 }
 
-/* Navigation estilo UNIX */
+/* NAVIGATION */
 nav {
     margin-bottom: 40px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #000;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #333;
 }
 nav a {
-    margin-right: 20px;
+    margin-right: 18px;
     font-weight: bold;
 }
 
-/* Code blocks estilo terminal */
+/* CODE BLOCKS — terminal green */
 pre, code {
-    background: #222;
-    color: #0f0; /* verde fosforescente retro */
-    padding: 10px;
-    border-radius: 4px;
+    background: #111;
+    color: #00ff66;
+    padding: 14px;
+    border-radius: 5px;
     font-size: 15px;
     overflow-x: auto;
 }
 
-/* Lists */
+/* LISTS */
 ul, ol {
-    margin-left: 24px;
+    margin-left: 22px;
 }
 
-/* Footer */
+/* FOOTER */
 footer {
     margin-top: 60px;
     padding-top: 20px;
-    border-top: 1px solid #000;
+    border-top: 1px solid #333;
     font-size: 0.9rem;
-    color: #333;
+    color: #aaa;
 }
