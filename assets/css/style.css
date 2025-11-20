@@ -1,51 +1,67 @@
 /* -----------------------------------------------------------
-   DARK TERMINAL UNIX - retro, minimal, green/white text
+   VT100 TERMINAL THEME — green phosphor retro
 ------------------------------------------------------------*/
 
 body {
-    font-family: "IBM Plex Mono", "Fira Mono", monospace;
+    font-family: "IBM Plex Mono", "Courier New", monospace;
     background-color: #000000;
-    color: #f2f2f2;
+    color: #00ff00;
     max-width: 780px;
     margin: 50px auto;
     padding: 0 20px;
     line-height: 1.8;
     font-size: 17px;
+
+    /* CRT slight glow */
+    text-shadow: 0 0 4px rgba(0, 255, 0, 0.7);
 }
 
-/* HEADINGS - simple, terminal-style, no fancy spacing */
+/* HEADINGS — same color, just more intensity */
 h1, h2, h3 {
-    font-weight: 700;
-    color: #ffffff;
-    margin-top: 45px;
+    font-weight: bold;
+    color: #00ff00;
+    text-shadow: 0 0 8px rgba(0, 255, 0, 0.9);
+    margin-top: 40px;
     margin-bottom: 10px;
 }
 
 h1 {
-    font-size: 2.3rem;
-    border-bottom: 2px solid #444;
-    padding-bottom: 6px;
+    font-size: 2.2rem;
+    border-bottom: 1px solid #00ff00;
+    padding-bottom: 4px;
 }
 h2 {
-    font-size: 1.7rem;
-    border-left: 4px solid #444;
-    padding-left: 10px;
+    font-size: 1.6rem;
+    border-left: 3px solid #00ff00;
+    padding-left: 8px;
 }
 h3 {
     font-size: 1.3rem;
 }
 
-/* LINKS - retro terminal soft blue */
+/* LINKS — brighter green, blinking underline on hover */
 a {
-    color: #5aa2ff;
+    color: #66ff66;
     text-decoration: none;
-    border-bottom: 1px dotted #5aa2ff;
+    border-bottom: 1px dotted #33ff33;
 }
 a:hover {
-    border-bottom: 1px solid #5aa2ff;
+    border-bottom: 1px solid #00ff00;
+    text-shadow: 0 0 6px #00ff00;
 }
 
-/* HEADER IMAGE */
+/* NAV — looks like terminal menu */
+nav {
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #00aa00;
+}
+nav a {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* IMAGE at top — framed like old ANSI dump */
 .header-image {
     text-align: center;
     margin-bottom: 40px;
@@ -53,44 +69,39 @@ a:hover {
 
 .header-image img {
     max-width: 260px;
-    border: 2px solid #444;
-    padding: 4px;
-    background: #111;
+    border: 1px solid #00ff00;
+    background: #000;
+    padding: 6px;
+
+    /* pixelate + glow */
     image-rendering: pixelated;
-    filter: contrast(120%) brightness(100%);
+    filter: brightness(140%) contrast(130%);
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.6);
 }
 
-/* NAVIGATION */
-nav {
-    margin-bottom: 40px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid #333;
-}
-nav a {
-    margin-right: 18px;
-    font-weight: bold;
-}
-
-/* CODE BLOCKS — terminal green */
+/* CODE BLOCKS — pure VT100 green box */
 pre, code {
-    background: #111;
-    color: #00ff66;
+    background: #001900; /* dark CRT-green base */
+    color: #00ff00;
     padding: 14px;
-    border-radius: 5px;
+    border-radius: 4px;
+    border: 1px solid #009900;
     font-size: 15px;
+
+    text-shadow: 0 0 4px rgba(0, 255, 0, 0.7);
     overflow-x: auto;
 }
 
 /* LISTS */
 ul, ol {
-    margin-left: 22px;
+    margin-left: 20px;
 }
 
 /* FOOTER */
 footer {
     margin-top: 60px;
     padding-top: 20px;
-    border-top: 1px solid #333;
+    border-top: 1px solid #008800;
     font-size: 0.9rem;
-    color: #aaa;
+    color: #00cc00;
 }
