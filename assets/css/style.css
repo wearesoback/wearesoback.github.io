@@ -3,6 +3,7 @@ body {
     background-color: #000000;
     color: #66FF66; /* Verde terminal suave */
     font-family: monospace;
+    font-size: 16px;
     margin: 0;
     padding: 0;
     text-align: center; /* Centra el contenido principal */
