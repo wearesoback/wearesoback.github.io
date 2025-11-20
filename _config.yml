@@ -3,3 +3,4 @@ description: "Personal and Professional Blog"
 markdown: kramdown
 theme: null
 permalink: /:title/
+url: "https://wearesoback.github.io"
