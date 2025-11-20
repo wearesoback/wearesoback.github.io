@@ -66,6 +66,12 @@ a:hover {
     color: #ADFF2F;
 }
 
+/* --- CLASSES --- */
+
+.title-white { color: white; }
+.title-green { color: #00FF00; }
+
+
 /* --- FOOTER --- */
 footer {
     margin-top: 4rem;
