@@ -3,7 +3,7 @@ layout: default
 title: "Inicio"
 ---
 
-## Posts Recientes
+## lately... \ 
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.url }})
 {% endfor %}
