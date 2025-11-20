@@ -3,6 +3,8 @@ title: Don't give up
 layout: default
 --- 
 
+# Don't give up...
+
 Lately I’ve had some pretty rough days. My actual job drains me both physically and mentally, and I’m in a completely new place that I still don’t fully understand… Sometimes I just feel like giving up and letting go of what I want for my life.
 
 But I’m convinced we weren’t born to live simple, boring lives. We were born to make our story worth telling. So yeah, the key is just not giving up.
