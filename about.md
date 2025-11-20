@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Sobre mí"
+title: "about me"
 ---
 
-# Sobre mí
+# about me?
 
-Fumador de puros.  
-Entusiasta de Linux.  
-Sitio hecho a mano con Markdown.
+cigar smoker,
+doing cybersec for fun,
+part-time builder.
