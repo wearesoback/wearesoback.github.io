@@ -1,74 +1,95 @@
-/* ----- Base ----- */
+/* -----------------------------------------------------------
+   RETRO UNIX STYLE — terminal vibes, minimal, clean
+------------------------------------------------------------*/
+
+/* Base: background claro tipo viejo UNIX manpages */
 body {
-    font-family: "JetBrains Mono", "Fira Code", monospace;
-    max-width: 800px;
-    margin: 40px auto;
+    font-family: "IBM Plex Mono", "Fira Mono", monospace;
+    background-color: #f7f7f7;
+    color: #111;
+    max-width: 780px;
+    margin: 50px auto;
     padding: 0 20px;
-    background-color: #fafafa;
-    color: #222;
-    line-height: 1.7;
+    line-height: 1.75;
+    font-size: 17px;
 }
 
-/* ----- Links ----- */
-a {
-    color: #005bbb;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
-
-/* ----- Title & Headers ----- */
+/* Headings estilo manual pages */
 h1, h2, h3 {
-    font-weight: 600;
-    margin-top: 40px;
+    font-weight: 700;
+    color: #000;
+    margin-top: 45px;
     margin-bottom: 10px;
 }
 h1 {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
 }
 h2 {
     font-size: 1.6rem;
+    border-left: 4px solid #000;
+    padding-left: 8px;
 }
 h3 {
     font-size: 1.3rem;
 }
 
-/* ----- Code Blocks ----- */
-pre, code {
-    background: #f0f0f0;
-    padding: 4px 6px;
-    border-radius: 4px;
-    overflow-x: auto;
+/* Links tipo navegador de texto */
+a {
+    color: #0044cc;
+    text-decoration: none;
+    border-bottom: 1px dotted #0044cc;
+}
+a:hover {
+    border-bottom: 1px solid #0044cc;
 }
 
-/* Blocks */
-pre {
-    padding: 14px;
+/* Header image: estilo fotograma de monitor retro */
+.header-image {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.header-image img {
+    max-width: 260px;
+    border: 2px solid #000;
+    padding: 4px;
+    background: #eaeaea;
+    filter: contrast(130%) brightness(90%);
+    image-rendering: pixelated; /* efecto retro CRT */
 }
 
-/* ----- Lists ----- */
-ul, ol {
-    margin-left: 20px;
-    margin-top: 10px;
-}
-
-/* ----- Nav simple arriba ----- */
+/* Navigation estilo UNIX */
 nav {
     margin-bottom: 40px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #000;
 }
 nav a {
-    margin-right: 15px;
-    font-weight: 500;
+    margin-right: 20px;
+    font-weight: bold;
 }
 
-/* ----- Footer retro ----- */
+/* Code blocks estilo terminal */
+pre, code {
+    background: #222;
+    color: #0f0; /* verde fosforescente retro */
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    overflow-x: auto;
+}
+
+/* Lists */
+ul, ol {
+    margin-left: 24px;
+}
+
+/* Footer */
 footer {
     margin-top: 60px;
     padding-top: 20px;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #000;
     font-size: 0.9rem;
-    color: #555;
+    color: #333;
 }
