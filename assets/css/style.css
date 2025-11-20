@@ -1,126 +1,75 @@
-/* -----------------------------------------------------------
-   VT100 TERMINAL THEME — green phosphor (soft) retro
-------------------------------------------------------------*/
-
+/* --- GENERAL --- */
 body {
-    font-family: "IBM Plex Mono", "Courier New", monospace;
     background-color: #000000;
-    color: #66FF66; /* Soft terminal green */
-    max-width: 780px;
-    margin: 50px auto;
-    padding: 0 20px;
-    line-height: 1.8;
-    font-size: 17px;
-
-    /* CRT glow */
-    text-shadow: 0 0 4px rgba(102, 255, 102, 0.6);
+    color: #66FF66; /* Verde terminal suave */
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centra el contenido principal */
 }
 
-/* ----------------------- HEADINGS -------------------------- */
-
-h1, h2, h3 {
-    font-weight: bold;
-    color: #7CFC00; /* slightly brighter for hierarchy */
-    text-shadow: 0 0 6px rgba(124, 252, 0, 0.8);
-    margin-top: 40px;
-    margin-bottom: 10px;
+/* --- TÍTULO PRINCIPAL (SmokingLopez) --- */
+h1, .site-title {
+    font-size: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: #7CFC00;
+    letter-spacing: 2px;
 }
 
-h1 {
-    font-size: 2.2rem;
-    border-bottom: 1px solid #3d993d;
-    padding-bottom: 4px;
-}
-h2 {
-    font-size: 1.6rem;
-    border-left: 3px solid #3d993d;
-    padding-left: 8px;
-}
-h3 {
-    font-size: 1.3rem;
+/* --- MENÚ DE BOTONES --- */
+nav {
+    margin-top: 2rem;
 }
 
-/* ------------------------- LINKS --------------------------- */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #66FF66;
+    text-decoration: none;
+    padding: 8px 14px;
+    border: 1px solid #66FF66;
+    border-radius: 0px; /* SIN bordes redondeados */
+    background: transparent;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    color: black;
+    background-color: #66FF66;
+    border-color: #7CFC00;
+}
+
+/* --- CUERPO DEL TEXTO / POSTS --- */
+main, .content {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    text-align: left; /* Para leer mejor */
+}
+
+/* Links del contenido */
 a {
     color: #7CFC00;
-    text-decoration: none;
-    border-bottom: 1px dotted #66FF66;
 }
 a:hover {
-    border-bottom: 1px solid #7CFC00;
-    text-shadow: 0 0 8px #7CFC00;
+    color: #ADFF2F;
 }
 
-/* --------------------- NAVIGATION -------------------------- */
-/* center menu buttons */
-
-nav {
-    margin-bottom: 40px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid #3d993d;
-    text-align: center; /* CENTRA EL MENÚ */
-}
-
-nav a {
-    margin: 0 12px;
-    padding: 5px 10px;
-    display: inline-block;
-    font-weight: bold;
-    border: 1px solid #3d993d;
-    border-radius: 3px;
-}
-
-nav a:hover {
-    background: #003300;
-    border-color: #7CFC00;
-    text-shadow: 0 0 6px #7CFC00;
-}
-
-/* ----------------------- HEADER IMAGE ----------------------- */
-
-.header-image {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.header-image img {
-    max-width: 260px;
-    border: 1px solid #3d993d;
-    background: #000;
-    padding: 6px;
-
-    /* retro look */
-    image-rendering: pixelated;
-    filter: brightness(120%) contrast(130%);
-    box-shadow: 0 0 12px rgba(102, 255, 102, 0.5);
-}
-
-/* ------------------------ CODE BLOCKS ----------------------- */
-
-pre, code {
-    background: #001900; /* dark green background */
-    color: #66FF66;
-    padding: 14px;
-    border-radius: 5px;
-    border: 1px solid #3d993d;
-    font-size: 15px;
-    text-shadow: 0 0 4px rgba(102, 255, 102, 0.7);
-    overflow-x: auto;
-}
-
-/* -------------------------- LISTS --------------------------- */
-
-ul, ol {
-    margin-left: 20px;
-}
-
-/* -------------------------- FOOTER -------------------------- */
-
+/* --- FOOTER --- */
 footer {
-    margin-top: 60px;
-    padding-top: 20px;
-    border-top: 1px solid #3d993d;
-    font-size: 0.9rem;
-    color: #55dd55;
+    margin-top: 4rem;
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #66FF66;
+    color: #66FF66;
 }
