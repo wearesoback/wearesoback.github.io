@@ -21,4 +21,4 @@ And how is *The Plan* going? Christmas hasn’t arrived yet. Maybe we’re still
 
 Will the bicycle arrive? I still don’t know just like I didn’t know back then. But in the meantime, I’ll keep working on *The Plan*, thinking about *The Plan*, redesigning *The Plan*, touching *The Plan*, breathing *The Plan* because that’s what it’s about, isn’t it? If we’re going to live, let it have meaning.
 
-**Always be that child who wants the bicycle.**
+Always be that kid who wants the bike. 
