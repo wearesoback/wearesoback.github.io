@@ -1,6 +1,6 @@
 ---
 layout: default
-title: “A Kid Always Wants a Bike”
+title: A Kid Always Wants a Bike
 ---
 
 # A Kid Always Wants a Bike
